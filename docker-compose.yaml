@@ -47,4 +47,4 @@ services:
     volumes:
     - .:/go/src
     ports:
-    - 8181:8181git branch -M main
+    - 8181:8181
