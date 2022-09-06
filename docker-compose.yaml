@@ -11,7 +11,7 @@ services:
     command:
       - --config.file=/etc/prometheus/prometheus.yml
     volumes:
-      - /mnt/STORAGE/VOLUMES/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - /mnt/STORAGE/VOLUMES/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
 
   grafana:
     image: grafana/grafana
